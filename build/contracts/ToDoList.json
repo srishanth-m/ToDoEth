@@ -1,0 +1,180 @@
+{
+  "contractName": "ToDoList",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "taskount",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function",
+      "signature": "0xad946f7a"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b50609e8061001e6000396000f3fe608060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063ad946f7a146044575b600080fd5b348015604f57600080fd5b506056606c565b6040518082815260200191505060405180910390f35b6000548156fea165627a7a72305820ede686a09a5b82c1e91a40c792699669df0500ef4b0a461282aa496d81c73b970029",
+  "deployedBytecode": "0x608060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063ad946f7a146044575b600080fd5b348015604f57600080fd5b506056606c565b6040518082815260200191505060405180910390f35b6000548156fea165627a7a72305820ede686a09a5b82c1e91a40c792699669df0500ef4b0a461282aa496d81c73b970029",
+  "sourceMap": "79:48:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;79:48:1;;;;;;;",
+  "deployedSourceMap": "79:48:1:-;;;;;;;;;;;;;;;;;;;;;;;;103:20;;8:9:-1;5:2;;;30:1;27;20:12;5:2;103:20:1;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "// SPDX-License-Identifier: SEE LICENSE IN LICENSE\r\npragma solidity ^0.5.0;\r\n\r\ncontract ToDoList{\r\n    uint public taskount;\r\n}",
+  "sourcePath": "C:/Users/User/Desktop/hh-fcc/toDoBlockchain/contracts/ToDoList.sol",
+  "ast": {
+    "absolutePath": "/C/Users/User/Desktop/hh-fcc/toDoBlockchain/contracts/ToDoList.sol",
+    "exportedSymbols": {
+      "ToDoList": [
+        37
+      ]
+    },
+    "id": 38,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "52:23:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 37,
+        "linearizedBaseContracts": [
+          37
+        ],
+        "name": "ToDoList",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 36,
+            "name": "taskount",
+            "nodeType": "VariableDeclaration",
+            "scope": 37,
+            "src": "103:20:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 35,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "103:4:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 38,
+        "src": "79:48:1"
+      }
+    ],
+    "src": "52:75:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/C/Users/User/Desktop/hh-fcc/toDoBlockchain/contracts/ToDoList.sol",
+    "exportedSymbols": {
+      "ToDoList": [
+        37
+      ]
+    },
+    "id": 38,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "52:23:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 37,
+        "linearizedBaseContracts": [
+          37
+        ],
+        "name": "ToDoList",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 36,
+            "name": "taskount",
+            "nodeType": "VariableDeclaration",
+            "scope": 37,
+            "src": "103:20:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 35,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "103:4:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 38,
+        "src": "79:48:1"
+      }
+    ],
+    "src": "52:75:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x3AEa3Cb984ED1177dfBaa75a045d596A3cc6A034",
+      "transactionHash": "0x825aacf888d2c0b4e14fc1f7456851c14ce3cef8cb79e3da8d264418abc4866e"
+    }
+  },
+  "schemaVersion": "3.0.1",
+  "updatedAt": "2024-05-31T07:10:46.578Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
